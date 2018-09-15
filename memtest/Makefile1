@@ -1,0 +1,11 @@
+output: bad_memory.o
+	gcc bad_memory.o -o output
+
+bad_memory.o:bad_memory.c
+	gcc -c bad_memory.c
+
+run:
+	./output
+	
+
+
